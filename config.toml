@@ -1,7 +1,7 @@
 baseURL = "http://example.com/"
 languageCode = "en-us"
 title = "The Kimch"
-theme = "themes/resto-hugo"
+theme = "resto-hugo"
 copyright = "&copy 2019 Resto Hugo" # HTML tags supported
 googleAnalytics = "UA-123-45"
 disqusShortname = "yourdiscussshortname"
