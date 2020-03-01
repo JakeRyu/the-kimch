@@ -1,12 +1,14 @@
 install:
+- pip install --user awscli
 - wget https://github.com/gohugoio/hugo/releases/download/v0.65.3/hugo_0.65.3_Linux-64bit.deb
 - sudo dpkg -i hugo*.deb
 - hugo version
 before_script:
 - rm -rf public
-script:
 - hugo
+script:
+- aws s3 sync public/ s3://daily-kimchi --acl public-read --delete
+- aws cloundfront create-invalidation --distribution-id E2M452XWE01ID5 --paths '/*'
 branches:
  only:
  - master
- 
