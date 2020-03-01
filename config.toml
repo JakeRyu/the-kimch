@@ -1,4 +1,4 @@
-baseURL = "http://example.com/"
+baseURL = "https://www.dailykimchi.uk/"
 languageCode = "en-us"
 title = "The Kimch"
 theme = "resto-hugo"
