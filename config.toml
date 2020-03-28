@@ -8,7 +8,7 @@ disqusShortname = "yourdiscussshortname"
 
 # Theme specific configuration
 [params]
-logo = "img/logo.png"
+logo = "img/daily-kimchi.png"
 enableDisqus = true # enable / disable comments for blog posts
 enableGA = true # enable / disable google analytics
 heroText = "We Love <br> Delicious Foods !"
